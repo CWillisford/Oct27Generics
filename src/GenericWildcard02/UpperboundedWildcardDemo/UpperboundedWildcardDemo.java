@@ -7,7 +7,7 @@ public class UpperboundedWildcardDemo {
         long result = 1;
 
         for(int i=3;i >= 1;i-- ){
-            list.add(Long.valueOf(i));
+            //list.add(Long.valueOf(i));
             result *= list.get(i).longValue();
         }
 
